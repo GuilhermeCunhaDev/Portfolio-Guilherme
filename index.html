@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Guilherme Cunha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1ce261e09b.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("WO6QSTvAQ8KORdhWo");
+   })();
+</script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Inicio</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Oi, Eu sou</p> 
+                <h1>Guilherme Cunha<span><br>Desenvolvedor Front-end</span></h1>
+                <div class="social-icons">
+                    <a href="https://github.com/GuilhermeCunhaDev" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/devguilherme-cunha/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/guilhermealmeida2008/" target="_blank"><i class="fa-brands fa-instagram"></i></a>                   
+                    <a href="https://www.facebook.com/guilherme.dealmeida.372/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------about----------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Sobre mim</h1>
+                    <p>Muito Prazer, meu nome é Guilherme Cunha, tenho 29 anos, moro em Sorocaba-SP e admito que sou viciado em tecnologia. Meu primeiro contato com programação foi no ensino médio. Apesar de gostar logo de cara, só comecei a focar de fato em 2021. <br></p>
+                    <p><br></p>
+                    <p>Hoje tenho uma relação especial com <strong>HTML, CSS e JavaScript</strong>. São as minhas ferramentas mágicas para criar maravilhas no mundo online. Embora minha experiência possa ser modesta, minha paixão por aprender é gigante.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Habilidades</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experiência</p>
+                        <p class="tab-links" onclick="opentab('education')">Educação</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><i class="fa-brands fa-html5"></i> HTML5</span><br>Linguagem de Marcação de Hipertexto.</li>
+                            <li><span><i class="fa-brands fa-css3-alt"></i></i> CSS3</span><br>Linguagem usada para estilizar e formatar conteúdos HTML.</li>
+                            <li><span><i class="fa-brands fa-square-js"></i> JavaScript</span><br>Linguagem de programação que permite a criação de conteúdos dinâmicos.</li>
+                            <li><span><i class="fa-brands fa-bootstrap"></i></i> Bootstrap</span><br>Framework web para desenvolvimento de componentes de front-end.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Atualmente</span><br> Desenvolvedor Front-End Freelancer</li>
+                            <li><span>Buscando...</span><br> A procura da minha primeira experiência "oficial".<br>Estou disponível para bater um papo. </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Abril 2022</span><br>Websites com HTML5 e CSS3 <br> Digital Innovation One</li>
+                            <li><span>Abril 2022</span><br>Construindo páginas para internet com Bootstrap<br> Digital Innovation One</li>
+                            <li><span>Abril 2022</span><br>Manipulando a D.O.M. com JavaScript<br> Digital Innovation One</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------services------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Meus Serviços</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Entender seus objetivos, alinhar expectativas e criar seu site de acordo com suas necessidades.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-wrench"></i></i>
+                    <h2>Atualização de conteúdo</h2>
+                    <p>Eventuais mudanças ou atualizações de informações do site.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-toolbox"></i>
+                    <h2>Manutenção mensal</h2>
+                    <p>Pacotes de serviços para quando o site precisa passar por atualizações constantes.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!----------------portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Meus Trabalhos</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rerum excepturi vitae in est amet!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rerum excepturi vitae in est amet!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rerum excepturi vitae in est amet!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Ver mais</a>
+    </div>
+</div>
+<!-- ----------------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Fale Comigo</h1>
+                   <div class="social-icons">
+                    <a href="https://github.com/GuilhermeCunhaDev" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/devguilherme-cunha/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/guilhermealmeida2008/" target="_blank"><i class="fa-brands fa-instagram"></i></a>                   
+                    <a href="https://www.facebook.com/guilherme.dealmeida.372/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <p><i class="fa-solid fa-square-phone"></i>15 99624 2938</p>
+                <p><i class="fa-solid fa-envelope"></i>guilhermealmeida2008@hotmail.com</p>
+             
+            </div>
+            <div class="contact-right">
+                
+                <form>
+                    <h2>Envie seu email </h2>
+                    <input type="text" id="name" name="Nome" placeholder="Nome completo" required>
+                    <input type="email" id="email" name="Email" placeholder="Seu Email" required>
+                    <textarea  id="message" name="Mensagem" rows="6" placeholder="Sua Mensagem"></textarea>
+                    <button type="submit" onclick="sendMail()" class="btn btn2">Enviar</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div id="btnTop">
+        <i class="arrow up"></i>
+    </div>
+    <div class="copyright">
+        <p>Todos os Direitos Reservado ©  Guilherme Cunha</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
