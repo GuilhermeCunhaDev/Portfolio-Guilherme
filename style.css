@@ -16,7 +16,7 @@ html{
 #header{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(50deg,#fff,black,#830644,blue);
+    background: linear-gradient(50deg,rgb(0, 0, 54),black,#830644,blue);
     background-size: 300% 300%;
     animation: color 7s ease-in-out infinite;
 }
